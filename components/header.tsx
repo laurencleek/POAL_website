@@ -1,5 +1,4 @@
 import Link from "next/link"
-import Image from "next/image"
 import { Search } from "lucide-react"
 
 export default function Header() {
@@ -7,16 +6,9 @@ export default function Header() {
     <header className="w-full border-b border-gray-200">
       <div className="container mx-auto flex items-center justify-between py-4 px-4 md:px-6">
         <Link href="/" className="flex items-center">
-          <div className="relative h-54 w-54 mr-2">
-            <Image
-              src="/poal_logo.png"
-              alt="Logo"
-              width={156}
-              height={156}
-              className="object-contain"
-              priority
-            />
-          </div>
+          <span className="text-xl font-bold uppercase">
+            Public Opinion<span className="text-gray-500"> Analytics Lab</span>
+          </span>
         </Link>
 
         <nav className="hidden md:flex items-center space-x-1">

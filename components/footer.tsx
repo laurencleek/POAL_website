@@ -16,7 +16,7 @@ export default function Footer() {
       {/* Partners Section */}
       <div className="border-b border-gray-800">
         <div className="container mx-auto px-4 py-8 md:px-6">
-          <h3 className="text-center text-sm font-medium uppercase tracking-wider text-gray-400 mb-8">Our Partners</h3>
+          <h3 className="text-center text-sm font-medium uppercase tracking-wider text-gray-400 mb-8">Our Members</h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center justify-items-center">
             {partners.map((partner, index) => (
               <div
@@ -42,8 +42,8 @@ export default function Footer() {
           <div>
             <h3 className="text-sm font-medium uppercase tracking-wider text-gray-400">Contact</h3>
             <div className="mt-4 space-y-2 text-sm">
-              <p>Requests for additional information can be directed to</p>
-              <p className="text-emerald-400">info@researchorg.org</p>
+              <p>Contact us at: </p>
+              <p className="text-emerald-400">publicopinionanalyticslab@gmail.com</p>
             </div>
           </div>
 
@@ -60,14 +60,14 @@ export default function Footer() {
           <div>
             <div className="flex items-center">
               <Image
-                src="/placeholder.svg?height=40&width=40"
+                src="/poal_logo.png?height=150&width=150"
                 alt="Logo"
-                width={40}
-                height={40}
+                width={150}
+                height={150}
                 className="object-contain mr-2"
               />
               <span className="text-xl font-bold uppercase">
-                Research<span className="text-gray-500">Org</span>
+                Public Opinion<span className="text-gray-500"> Analytics Lab</span>
               </span>
             </div>
             <p className="mt-4 text-sm">
