@@ -48,3 +48,8 @@ const AvatarFallback = React.forwardRef<
 AvatarFallback.displayName = AvatarPrimitive.Fallback.displayName
 
 export { Avatar, AvatarImage, AvatarFallback }
+
+<Avatar>
+  <AvatarImage src="public/graph.jpg" alt="User Profile" />
+  <AvatarFallback>JD</AvatarFallback>
+</Avatar>

@@ -10,7 +10,13 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Public Opinion Analytics Lab",
   description: "The website of the Public Opinion Analytics Lab",
-    generator: 'v0.dev'
+  generator: 'v0.dev',
+  icons: {
+    icon: '/graph.jpg', // For traditional favicon
+    // Optional: You can also add different sizes/types
+    // apple: '/apple-icon.png',
+    // shortcut: '/shortcut-icon.png',
+  }
 }
 
 export default function RootLayout({

@@ -13,6 +13,7 @@ try {
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',    // <--- this line is essential for out to create!
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -23,11 +24,13 @@ const nextConfig = {
     unoptimized: true,
   },
   experimental: {
-    webpackBuildWorker: true,
-    parallelServerBuildTraces: true,
-    parallelServerCompiles: true,
+   // webpackBuildWorker: true,
+   // parallelServerBuildTraces: true,
+   // parallelServerCompiles: true,
   },
-}
+};
+
+
 
 if (userConfig) {
   // ESM imports will have a "default" property
