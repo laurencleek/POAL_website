@@ -7,14 +7,14 @@ export default function ResearchPage() {
     <div className="flex flex-col min-h-screen">
       <section className="py-16 px-4 md:px-6 bg-black text-white">
         <div className="container mx-auto">
-          <h1 className="text-center text-3xl md:text-4xl font-light uppercase tracking-widest mb-16">Research</h1>
+          <h1 className="text-center text-3xl md:text-4xl font-light uppercase tracking-widest mb-16">Our research missions centre around:</h1>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { title: "National Trends", image: "/placeholder.svg?height=300&width=400" },
-              { title: "Neighborhoods", image: "/placeholder.svg?height=300&width=400" },
-              { title: "Education", image: "/placeholder.svg?height=300&width=400" },
-              { title: "Racial Disparities", image: "/placeholder.svg?height=300&width=400" },
+              { title: "Research Excellence", image: "/research_ex.jpg?height=300&width=400" },
+              { title: "Innovation", image: "/innovation.jpg?height=300&width=400" },
+              { title: "Impact & Public Engagement", image: "/public.jpg?height=300&width=400" },
+              { title: "Teaching & Training", image: "/teaching_t.jpg?height=300&width=400" },
             ].map((item, index) => (
               <div key={index} className="group relative">
                 <div className="relative h-64 w-full overflow-hidden">
@@ -54,10 +54,10 @@ export default function ResearchPage() {
                   </div>
                 </div>
                 <div className="w-2/3">
-                  <h3 className="text-xl font-bold mb-2">New Economic Thinking: A Data-Driven Approach</h3>
-                  <p className="text-gray-500 mb-4">APRIL 2, 2025</p>
+                  <h3 className="text-xl font-bold mb-2">Insert Groundbreaking Research</h3>
+                  <p className="text-gray-500 mb-4">APRIL X, 2025</p>
                   <p className="text-gray-700">
-                    A comprehensive analysis of economic mobility factors across different demographics and regions.
+                    A comprehensive analysis of public opinion data.
                   </p>
                   <Link href="#" className="mt-4 inline-flex items-center text-emerald-600 hover:text-emerald-800">
                     Read more <ArrowRight className="ml-2 h-4 w-4" />

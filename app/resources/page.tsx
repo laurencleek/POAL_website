@@ -23,7 +23,7 @@ export default function ResourcesPage() {
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2">Data Tools</h3>
                 <p className="text-gray-700 mb-4">
-                  Interactive tools to explore economic mobility data across the United States.
+                  Interactive tools to explore public opinion data.
                 </p>
                 <Link href="#" className="text-emerald-600 hover:text-emerald-800 inline-flex items-center">
                   Explore tools <ArrowRight className="ml-2 h-4 w-4" />
@@ -44,7 +44,7 @@ export default function ResourcesPage() {
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2">Publications</h3>
                 <p className="text-gray-700 mb-4">
-                  Academic papers, policy briefs, and reports on economic mobility and opportunity.
+                  Academic papers, policy briefs, and reports on public opinion and recent developments in the field.
                 </p>
                 <Link href="#" className="text-emerald-600 hover:text-emerald-800 inline-flex items-center">
                   View publications <ArrowRight className="ml-2 h-4 w-4" />
@@ -82,21 +82,19 @@ export default function ResourcesPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white p-6 border border-gray-200 rounded-lg">
-              <h3 className="text-xl font-bold mb-4">Opportunity Atlas</h3>
+              <h3 className="text-xl font-bold mb-4">Public Opinion visual tool</h3>
               <p className="text-gray-700 mb-4">
-                An interactive mapping tool that traces the roots of outcomes such as poverty and incarceration back to
-                the neighborhoods in which children grew up.
+                An interactive tool that allows for granular level public opinion exploration.
               </p>
               <Link href="#" className="text-emerald-600 hover:text-emerald-800 inline-flex items-center">
-                Explore the Atlas <ArrowRight className="ml-2 h-4 w-4" />
+                Explore the tool <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </div>
 
             <div className="bg-white p-6 border border-gray-200 rounded-lg">
-              <h3 className="text-xl font-bold mb-4">Economic Tracker</h3>
+              <h3 className="text-xl font-bold mb-4">Public Opinion Mood Tracker</h3>
               <p className="text-gray-700 mb-4">
-                Real-time economic data across income, employment, and spending to measure the economic impact of policy
-                changes.
+                Real-time public opinion mood changes.
               </p>
               <Link href="#" className="text-emerald-600 hover:text-emerald-800 inline-flex items-center">
                 View the Tracker <ArrowRight className="ml-2 h-4 w-4" />

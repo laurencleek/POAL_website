@@ -6,47 +6,46 @@ export default function EventsPage() {
   const upcomingEvents = [
     {
       id: 1,
-      title: "Economic Mobility Conference 2025",
-      date: "June 15-17, 2025",
+      title: "Opening launch of public opinion analytics lab",
+      date: "May 16, 2025",
       time: "9:00 AM - 5:00 PM",
-      location: "Harvard University, Cambridge, MA",
+      location: "Reading University, UK",
       image: "/placeholder.svg?height=300&width=500&text=Conference",
       description:
-        "A three-day conference bringing together researchers, policymakers, and practitioners to discuss the latest findings on economic mobility.",
+        "Our launch event with various speakers and panels discussing the future of public opinion analytics.",
     },
     {
       id: 2,
-      title: "Data Workshop: Using Big Data for Social Impact",
-      date: "July 10, 2025",
-      time: "1:00 PM - 4:00 PM",
-      location: "Virtual Event",
-      image: "/placeholder.svg?height=300&width=500&text=Workshop",
-      description: "Learn how to leverage large datasets to measure and improve social outcomes in your community.",
+      title: "Placeholder Event 1",
+      date: "July 2025",
+      time: "TBD",
+      location: "TBD",
+      image: "/placeholder.svg?height=300&width=500&text=Event1",
+      description: "Event details coming soon.",
     },
     {
       id: 3,
-      title: "Policy Roundtable: Education and Mobility",
-      date: "August 5, 2025",
-      time: "10:00 AM - 12:00 PM",
-      location: "Washington, DC",
-      image: "/placeholder.svg?height=300&width=500&text=Roundtable",
-      description:
-        "A discussion with education leaders and policymakers on how to improve educational outcomes for disadvantaged students.",
+      title: "Placeholder Event 2",
+      date: "August 2025",
+      time: "TBD",
+      location: "TBD",
+      image: "/placeholder.svg?height=300&width=500&text=Event2",
+      description: "Event details coming soon.",
     },
   ]
 
   const pastEvents = [
     {
       id: 4,
-      title: "Webinar: Neighborhood Effects on Economic Opportunity",
-      date: "March 12, 2025",
-      image: "/placeholder.svg?height=200&width=300&text=Webinar",
+      title: "Placeholder Past Event 1",
+      date: "March 2025",
+      image: "/placeholder.svg?height=200&width=300&text=Past1",
     },
     {
       id: 5,
-      title: "Lecture Series: The Geography of Upward Mobility",
-      date: "February 8, 2025",
-      image: "/placeholder.svg?height=200&width=300&text=Lecture",
+      title: "Placeholder Past Event 2",
+      date: "February 2025",
+      image: "/placeholder.svg?height=200&width=300&text=Past2",
     },
   ]
 

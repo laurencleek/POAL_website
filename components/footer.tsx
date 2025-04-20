@@ -50,10 +50,11 @@ export default function Footer() {
           <div>
             <h3 className="text-sm font-medium uppercase tracking-wider text-gray-400">Mailing Address</h3>
             <div className="mt-4 space-y-2 text-sm">
-              <p>POAL</p>
-              <p>123 University Avenue</p>
-              <p>Box #100</p>
+              <p>Public Opinion Analytics Lab</p>
+              <p>University of Reading</p>
+              <p>Reading RG6 6AH</p>
               <p>United Kingdom</p>
+              <p>Tel: +44 118 987 5123</p>
             </div>
           </div>
 
