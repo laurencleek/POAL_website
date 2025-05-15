@@ -14,7 +14,7 @@ export default function PeoplePage() {
       id: 2,
       name: "Prof Sara Hobolt",
       title: "Co-director",
-      image: "/placeholder.svg?height=300&width=300&text=SH",
+      image: "/bio_hobolt.jpg?height=300&width=300&text=SH",
       bio: "Overseeing the research excellence theme",
     },
     {
@@ -163,6 +163,13 @@ export default function PeoplePage() {
     {
       id: 23,
       name: "Lauren Leek",
+      title: "Research Fellow",
+      image: "/bio_Leek.png?height=200&width=200&text=LL",
+      focus: "bio to be added here",
+    },
+    {
+      id: 24,
+      name: "Conrad Martinez-Lambert",
       title: "Research Fellow",
       image: "/placeholder.svg?height=200&width=200&text=LL",
       focus: "bio to be added here",
