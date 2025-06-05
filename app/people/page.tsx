@@ -87,14 +87,14 @@ export default function PeoplePage() {
       id: 12,
       name: "Dr Matthias Kroenke",
       title: "Research Fellow",
-      image: "/placeholder.svg?height=200&width=200&text=MK",
+      image: "/bio_matthias.jpg?height=200&width=200&text=MK",
       focus: "bio to be added here",
     },
     {
       id: 13,
       name: "Dr Thomas Robinson",
       title: "Research Fellow",
-      image: "/placeholder.svg?height=200&width=200&text=TR",
+      image: "/bio_tom.jpg?height=200&width=200&text=TR",
       focus: "bio to be added here",
     },
     {
@@ -115,7 +115,7 @@ export default function PeoplePage() {
       id: 16,
       name: "Dr Zach Dickson",
       title: "Research Fellow",
-      image: "/placeholder.svg?height=200&width=200&text=ZD",
+      image: "/bio_zac.jpg?height=200&width=200&text=ZD",
       focus: "bio to be added here",
     },
     {
@@ -157,7 +157,7 @@ export default function PeoplePage() {
       id: 22,
       name: "Dr Marta Antonetti",
       title: "Research Fellow",
-      image: "/placeholder.svg?height=200&width=200&text=MA",
+      image: "/bio_anton.jpeg?height=200&width=200&text=MA",
       focus: "bio to be added here",
     },
     {

@@ -17,6 +17,7 @@ export default function Header() {
             { name: "Resources", href: "/resources" },
             { name: "Events", href: "/events" },
             { name: "People", href: "/people" },
+            { name: "Consultancy", href: "/consultancy" },
           ].map((item) => (
             <Link
               key={item.name}
