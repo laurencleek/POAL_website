@@ -59,17 +59,14 @@ export default function Footer() {
           </div>
 
           <div>
-            <div className="flex items-center">
+            <div className="flex items-center -mt-4"> {/* Added -mt-4 for upward adjustment */}
               <Image
-                src="/poal_logo.png?height=150&width=150"
-                alt="Logo"
-                width={150}
-                height={150}
-                className="object-contain mr-2"
+                src="logo_b.jpg" // Ensure this points to public/logo.png
+                alt="Public Opinion Analytics Lab Logo"
+                width={270} // Adjusted width for footer
+                height={120}  // Adjusted height for footer
+                className="object-contain mr-2" // Keep or adjust className as needed
               />
-              <span className="text-xl font-bold uppercase">
-                Public Opinion<span className="text-gray-500"> Analytics Lab</span>
-              </span>
             </div>
             <p className="mt-4 text-sm">
               Public Opinion Analytics lab is an academic collaboration with as goal to foster synergies and facilitating academic dialogue.

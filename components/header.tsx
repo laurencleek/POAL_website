@@ -1,14 +1,19 @@
 import Link from "next/link"
 import { Search } from "lucide-react"
+import Image from "next/image"
 
 export default function Header() {
   return (
     <header className="w-full border-b border-gray-200">
       <div className="container mx-auto flex items-center justify-between py-4 px-4 md:px-6">
         <Link href="/" className="flex items-center">
-          <span className="text-xl font-bold uppercase">
-            Public Opinion<br /><span className="text-gray-500"> Analytics Lab</span>
-          </span>
+          <Image
+            src="/logo.png" // Assuming logo.png is in the public folder
+            alt="Public Opinion Analytics Lab Logo"
+            width={200} // Adjust width as needed
+            height={50} // Adjust height as needed
+            priority // Add priority if it's an LCP element
+          />
         </Link>
 
         <nav className="hidden md:flex items-center space-x-1">

@@ -14,6 +14,12 @@ try {
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',    // <--- this line is essential for out to create!
+  trailingSlash: true, // This line is beneficial
+  // The following lines for basePath and assetPrefix should remain commented out
+  // for your URL (https://publicopinionanalyticslab.github.io/),
+  // as the site is served from the domain root.
+  // basePath: '/your-repo-name',
+  // assetPrefix: '/your-repo-name/',
   eslint: {
     ignoreDuringBuilds: true,
   },
