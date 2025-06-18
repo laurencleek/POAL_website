@@ -24,7 +24,7 @@ export default function Footer() {
                 className="bg-white rounded-md p-4 w-full max-w-[200px] h-20 flex items-center justify-center"
               >
                 <Image
-                  src={partner.logo || "poal_logo.png"}
+                  src={partner.logo || "/logo_b.jpg"}
                   alt={partner.name}
                   width={120}
                   height={60}
@@ -61,7 +61,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center -mt-4"> {/* Added -mt-4 for upward adjustment */}
               <Image
-                src="logo_b.jpg" // Ensure this points to public/logo.png
+                src="/logo_b.jpg" // Ensure this points to public/logo.png
                 alt="Public Opinion Analytics Lab Logo"
                 width={270} // Adjusted width for footer
                 height={120}  // Adjusted height for footer
