@@ -13,18 +13,9 @@ export default function Home() {
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
                 Latest research output 
               </h1>
-              <Link
-                href="/contact"
-                className="inline-block mt-4 px-6 py-3 bg-white text-black font-medium uppercase tracking-wider text-sm hover:bg-gray-200 transition-colors"
-              >
-                Get in Touch
-              </Link>
               <div className="flex flex-col md:flex-row gap-4 mt-8">
                 <Link href="/research" className="text-white flex items-center gap-2 hover:underline">
-                  Review Key Findings <ArrowRight className="h-4 w-4" />
-                </Link>
-                <Link href="/resources" className="text-white flex items-center gap-2 hover:underline">
-                  Explore Our Data <ArrowRight className="h-4 w-4" />
+                  Explore Featured Research <ArrowRight className="h-4 w-4" />
                 </Link>
               </div>
             </div>
@@ -49,7 +40,7 @@ export default function Home() {
                 <h2 className="text-xl md:text-2xl font-bold">
                   Get involved in our events
                 </h2>
-                <Link href="/research" className="mt-2 text-white flex items-center gap-2 hover:underline">
+                <Link href="/events" className="mt-2 text-white flex items-center gap-2 hover:underline">
                   <ArrowRight className="h-4 w-4" />
                 </Link>
               </div>
@@ -140,4 +131,3 @@ export default function Home() {
     </div>
   )
 }
-

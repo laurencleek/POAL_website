@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
-import { Facebook, Twitter, Youtube, Linkedin } from "lucide-react"
+import { Globe } from "lucide-react"
 
 export default function Footer() {
   // Partner logos - in a real implementation, you would replace these with actual logos
@@ -76,32 +76,15 @@ export default function Footer() {
 
         <div className="mt-12 flex flex-col items-center justify-between space-y-4 border-t border-gray-800 pt-8 md:flex-row md:space-y-0">
           <div className="flex space-x-6">
-            <Link href="#" className="text-gray-400 hover:text-white">
-              <Facebook className="h-5 w-5" />
-            </Link>
-            <Link href="#" className="text-gray-400 hover:text-white">
-              <Twitter className="h-5 w-5" />
-            </Link>
-            <Link href="#" className="text-gray-400 hover:text-white">
-              <Youtube className="h-5 w-5" />
-            </Link>
-            <Link href="#" className="text-gray-400 hover:text-white">
-              <Linkedin className="h-5 w-5" />
+            <Link href="https://bsky.app/profile/poalab.bsky.social" className="text-gray-400 hover:text-white">
+              <Globe className="h-5 w-5" />
+              <span className="ml-2">Follow us on Bluesky</span>
             </Link>
           </div>
 
           <div className="flex space-x-6 text-sm text-gray-400">
             <Link href="#" className="hover:text-white">
-              Press
-            </Link>
-            <Link href="#" className="hover:text-white">
-              Updates
-            </Link>
-            <Link href="#" className="hover:text-white">
-              Join Our Mailing List
-            </Link>
-            <Link href="#" className="hover:text-white">
-              Reprint Policy
+              Privacy
             </Link>
           </div>
         </div>
@@ -109,4 +92,3 @@ export default function Footer() {
     </footer>
   )
 }
-

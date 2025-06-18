@@ -31,7 +31,7 @@ export default function ConsultancyPage() {
     <div className="flex flex-col min-h-screen">
       <section className="py-16 px-4 md:px-6">
         <div className="container mx-auto">
-          <h1 className="text-3xl md:text-4xl font-bold mb-12 text-center">
+          <h1 className="text-4xl md:text-5xl font-extrabold mb-12 text-center text-gray-900">
             Consultancy Services
           </h1>
           <p className="text-lg md:text-xl text-gray-700 mb-12 text-center max-w-3xl mx-auto">
@@ -42,60 +42,75 @@ export default function ConsultancyPage() {
           </p>
 
           <div className="mb-16">
-            <h2 className="text-2xl md:text-3xl font-bold mb-8 text-emerald-700">
+            <h2 className="text-3xl md:text-4xl font-bold mb-8 text-emerald-700 border-b-2 border-emerald-700 pb-2">
               Our Expertise
             </h2>
 
             <div className="grid md:grid-cols-1 gap-10">
               <div>
-                <h3 className="text-xl font-semibold mb-4">Thematic Areas</h3>
-                <ul className="list-disc list-inside space-y-2 text-gray-700">
+                <h3 className="text-2xl font-semibold mb-4 text-gray-800 border-l-4 border-emerald-700 pl-4">
+                  Thematic Areas
+                </h3>
+                <ul className="list-disc list-inside space-y-3 text-gray-700 pl-6">
                   {thematicAreas.map((area, index) => (
-                    <li key={`theme-${index}`}>{area}</li>
+                    <li key={`theme-${index}`} className="text-lg">
+                      {area}
+                    </li>
                   ))}
                 </ul>
               </div>
 
               <div>
-                <h3 className="text-xl font-semibold mb-4 mt-8">
+                <h3 className="text-2xl font-semibold mb-4 mt-8 text-gray-800 border-l-4 border-emerald-700 pl-4">
                   Methodological Strengths
                 </h3>
-                <ul className="list-disc list-inside space-y-2 text-gray-700">
+                <ul className="list-disc list-inside space-y-3 text-gray-700 pl-6">
                   {methodologicalStrengths.map((method, index) => (
-                    <li key={`method-${index}`}>{method}</li>
+                    <li key={`method-${index}`} className="text-lg">
+                      {method}
+                    </li>
                   ))}
                 </ul>
               </div>
 
               <div>
-                <h3 className="text-xl font-semibold mb-4 mt-8">
+                <h3 className="text-2xl font-semibold mb-4 mt-8 text-gray-800 border-l-4 border-emerald-700 pl-4">
                   Geographical Focus
                 </h3>
-                <ul className="list-disc list-inside space-y-2 text-gray-700">
+                <ul className="list-disc list-inside space-y-3 text-gray-700 pl-6">
                   {geographicalFocus.map((region, index) => (
-                    <li key={`geo-${index}`}>{region}</li>
+                    <li key={`geo-${index}`} className="text-lg">
+                      {region}
+                    </li>
                   ))}
                 </ul>
               </div>
             </div>
+            <p className="text-lg text-gray-700 mt-8">
+              For more information on our expertise, visit our{" "}
+              <Link
+                href="/people"
+                className="text-emerald-600 font-medium hover:underline"
+              >
+                People
+              </Link>{" "}
+              page.
+            </p>
           </div>
 
-          <div className="text-center py-10 bg-gray-50 rounded-lg">
-            <h2 className="text-2xl md:text-3xl font-bold mb-6 text-emerald-700">
-              Partner with Us
+          <div className="text-center py-10 mt-16 bg-gray-100 rounded-lg">
+            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-emerald-700">
+              Contact Us
             </h2>
             <p className="text-lg text-gray-700 mb-8 max-w-2xl mx-auto">
-              Whether you are a public institution, non-profit organization,
-              or private company, POAL can provide the research-backed
-              insights you need to navigate complex challenges and achieve your
-              goals.
+              Want advice, have questions or need more information? Reach out to us directly at{" "}
+              <a
+                href="mailto:publicopinionanalyticslab@gmail.com"
+                className="text-emerald-600 font-medium hover:underline"
+              >
+                publicopinionanalyticslab@gmail.com
+              </a>.
             </p>
-            <Link
-              href="/contact" // Assuming you have a contact page
-              className="inline-block px-8 py-3 bg-emerald-600 text-white font-medium rounded-md hover:bg-emerald-700 transition-colors text-lg"
-            >
-              Get in Touch
-            </Link>
           </div>
         </div>
       </section>
