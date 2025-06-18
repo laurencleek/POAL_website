@@ -92,3 +92,11 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+/* Adjust this in your CSS file */
+.leadership .card-img-top {
+    height: auto;
+    object-fit: cover;
+    object-position: center top;
+    max-height: 400px; /* Increase this value to show more of the head */
+}
