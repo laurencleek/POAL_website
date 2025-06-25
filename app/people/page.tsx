@@ -125,7 +125,7 @@ export default function PeoplePage() {
     {
       id: 11,
       name: "Dr Victor Araujo Silva",
-      image: "/bio_victor.JPG?height=200&width=200&text=VA",
+      image: "/bio_victor.jpg?height=200&width=200&text=VA",
       personal_website: "https://sites.google.com/view/victoraraujo/about-me",
       institutional_website: "https://www.reading.ac.uk/politics-international-relations/staff/dr-victor-araujo",
       focus: "The Americas (US and LA), Political Polarization, Populism, Persuasion, Identity Politics, Survey methodology and field experiments"
@@ -134,7 +134,7 @@ export default function PeoplePage() {
     {
       id: 12,
       name: "Dr Matthias Kroenke",
-      image: "/bio_matthias.JPG?height=200&width=200&text=MK",
+      image: "/bio_matthias.jpg?height=200&width=200&text=MK",
       personal_website: "https://www.matthiaskroenke.com",
       institutional_website: "https://www.reading.ac.uk/politics-international-relations/staff/dr-matthias-kroenke ",
       focus: "Comparative Politics, Political Behavior, Sub-Saharan Africa, Quantitative and Qualitative Methods,"
