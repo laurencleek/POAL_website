@@ -1,36 +1,30 @@
 import Image from "next/image"
 import Link from "next/link"
-import { ArrowRight } from "lucide-react"
 
 export default function ResearchPage() {
   return (
     <div className="flex flex-col min-h-screen">
       <section className="py-16 px-4 md:px-6">
         <div className="container mx-auto">
-          <h1 className="text-3xl md:text-4xl font-bold mb-8 text-center">Areas of Activity</h1>
+          <h1 className="text-3xl md:text-4xl font-bold mb-8 text-center">Research</h1>
           
-          <div className="mb-16 text-center max-w-4xl mx-auto">
+          <div className="mb-16 text-center max-w-5xl mx-auto">
             <p className="text-lg text-gray-700 leading-relaxed">
-              The Public Opinion Analytics Lab (POAL) is a pioneering academic collaboration between the University of Reading (UoR), the London School of Economics (LSE), and the University of Southampton (SOTON), designed to advance the research, teaching, and practice of public opinion and political behaviour measurement and analysis. The lab is a collaborative, cross-institutional hub that attracts leading scholars and practitioners in public opinion research working to cultivate democratic resilience and accountability by supporting large-scale national election studies and comparative public opinion datasets, by rigorously testing and disseminating innovative methods of public opinion measurement, and by fostering a more informed, engaged electorate. Its focus will be truly global: we have experts on US, European, Latin American and African politics, as well as on UK politics.
+              POAL hosts world-leading programmes of research on: (1) political trust, democratic satisfaction and democratic values; (2) political polarization, populism and the radical right; (3) information processing and persuasion – with topics such as mis/dis-information, micro-targeting and campaign effects; (4) identity politics and inequalities – with particular focus on gender and sexual identities, ethnicity and race, as well as social class and religion; and (5) policy attitudes – with particular focus on economic, immigration, public health, environmental/climate, civil liberties, and EU policy. Methodologically, we can count among us world-leading experts in polling and survey methodology, in predictive modelling (including MRP), in field and survey experiments, and in Large Language Models and computational text analysis. In terms of coverage, we obviously have top-notch expertise in British politics, but we also cover the EU, Western and Eastern European countries, the USA, Australia, New Zealand, Latin America and Africa.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {[
               { 
-                title: "Research", 
+                title: "Featured Research", 
                 image: "/research_ex.jpg?height=300&width=400",
-                href: "/research/research-area"
+                href: "/research/featured-research"
               },
               { 
-                title: "Innovation and Training", 
-                image: "/innovation.jpg?height=300&width=400",
-                href: "/research/innovation-training"
-              },
-              { 
-                title: "Impact & Public Engagement", 
-                image: "/public.jpg?height=300&width=400",
-                href: "/research/impact-engagement"
+                title: "Research Seminar Series", 
+                image: "/teaching_t.jpg?height=300&width=400",
+                href: "/research/seminar-series"
               },
             ].map((item, index) => (
               <Link key={index} href={item.href} className="group relative block">
@@ -40,7 +34,7 @@ export default function ResearchPage() {
                     alt={item.title}
                     fill
                     className="object-cover transition-transform duration-300 group-hover:scale-105"
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    sizes="(max-width: 768px) 100vw, 50vw"
                   />
                 </div>
                 <div className="absolute bottom-0 left-0 right-0 bg-white bg-opacity-95 p-4 rounded-b-lg">

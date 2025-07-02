@@ -67,10 +67,11 @@ export default function EventsPage() {
                     </p>
                   )}
                   <Link
-                    href={`/events/${event.id}`}
+                    href="/event1_report.pdf"
+                    target="_blank"
                     className="text-emerald-600 hover:text-emerald-800 font-medium block text-center"
                   >
-                    Learn more
+                    View Event Report (PDF)
                   </Link>
                 </div>
               </div>

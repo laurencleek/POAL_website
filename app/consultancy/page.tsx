@@ -2,6 +2,7 @@ import Link from "next/link";
 
 export default function ConsultancyPage() {
   const thematicAreas = [
+    "Institutional and electoral processes – including electoral systems, party systems, and political institutions",
     "Political trust, democratic satisfaction and democratic values",
     "Political polarization, populism and the radical right",
     "Information processing and persuasion – including mis/dis-information, micro-targeting and campaign effects",
