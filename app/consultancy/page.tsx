@@ -5,7 +5,7 @@ export default function ConsultancyPage() {
   const peopleLinks = {
     "Will": { name: "Prof. Will Jennings", href: "/people" },
     "Dan": { name: "Dr. Daniel Devine", href: "/people" },
-    "Miriam": { name: "Prof. Miriam Sorace", href: "/people" },
+    "Miriam": { name: "Dr. Miriam Sorace", href: "/people" },
     "Florian": { name: "Dr. Florian Foos", href: "/people" },
     "Tereza": { name: "Prof. Tereza Capelos", href: "/people" },
     "Marta": { name: "Dr. Marta Antonetti", href: "/people" },
@@ -74,11 +74,11 @@ export default function ConsultancyPage() {
   const geographicalFocusWithExperts = [
     {
       region: "British politics",
-      experts: ["Will", "Jessica", "Rob"]
+      experts: ["Will", "Jessica", "Rob", "Miriam", "Florian", "Sara"]
     },
     {
       region: "European Union (EU)",
-      experts: ["Miriam", "Sara", "Lauren"]
+      experts: ["Miriam", "Sara", "Lauren", "Katharina", "Florian"]
     },
     {
       region: "Western and Eastern European countries",
