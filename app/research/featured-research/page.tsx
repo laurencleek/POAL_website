@@ -101,7 +101,7 @@ export default function FeaturedResearchPage() {
             <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
               <div className="relative h-48 w-full">
                 <Image
-                  src="/ai_persuasion.jpg?height=200&width=400"
+                  src="/ai.png?height=200&width=400"
                   alt="AI Persuasion Research"
                   fill
                   className="object-cover"
@@ -123,7 +123,7 @@ export default function FeaturedResearchPage() {
             <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
               <div className="relative h-48 w-full">
                 <Image
-                  src="/parental_leave.jpg?height=200&width=400"
+                  src="/parent.jpg?height=200&width=400"
                   alt="Gender Politics Research"
                   fill
                   className="object-cover"
@@ -137,6 +137,28 @@ export default function FeaturedResearchPage() {
                   Should politicians take parental leave? Our research reveals complex public attitudes toward MPs who prioritize family responsibilities. While many support work-life balance in principle, voters still penalize politicians who seem to put parenting before politics, revealing persistent tensions between traditional political expectations and modern family values.
                 </p>
                 <Link href="https://doi.org/10.1111/1475-6765.12728" className="inline-flex items-center text-emerald-600 hover:text-emerald-800 font-medium">
+                  Read the full study <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+              </div>
+            </div>
+
+            <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+              <div className="relative h-48 w-full">
+                <Image
+                  src="/eu.jpg?height=200&width=400"
+                  alt="Europeanisation Research"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold mb-2">The Europeanisation of policy preferences: cross-national similarity and convergence 2014–2024</h3>
+                <p className="text-gray-500 mb-4">2025</p>
+                <p className="text-gray-700 mb-4">
+                  How has European integration shaped policy preferences across member states? This comprehensive study by Miriam Sorace examines cross-national similarity and convergence in policy preferences from 2014 to 2024, revealing important patterns in how European integration influences domestic political attitudes and policy priorities across different countries.
+                </p>
+                <Link href="https://www.tandfonline.com/doi/full/10.1080/13501763.2025.2512901" className="inline-flex items-center text-emerald-600 hover:text-emerald-800 font-medium">
                   Read the full study <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </div>

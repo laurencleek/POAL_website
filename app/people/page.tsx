@@ -90,15 +90,15 @@ export default function PeoplePage() {
   const members = [
     {
       id: 4,
-      name: "Prof Gabi Durrant",
+      name: "Prof. Gabriele Durrant",
       image: "/bio_gabi.jpg?height=200&width=200&text=GD",
       personal_website: "https://www.southampton.ac.uk/people/5x25ff/professor-gabriele-durrant",
-      institutional_website: "https://www.southampton.ac.uk/people/5x25ff/professor-gabriele-durrant",
-      focus: "Survey Data Collection, Survey Methodology, Statistical Modelling"
+      institutional_website: "https://www.ncrm.ac.uk/about/people/hub/Gabriele-Durrant.php",
+      focus: "Survey Methods, Survey Data Collection, Data Quality, Statistical Modelling"
     },
     {
       id: 5,
-      name: "Prof Kenneth Benoit",
+      name: "Prof. Kenneth Benoit",
       image: "/bio_ken.jpg?height=200&width=200&text=KB",
       personal_website: "https://kenbenoit.net/",
       institutional_website: "https://socsc.smu.edu.sg/faculty/profile/7891/kenneth-benoit",
@@ -124,7 +124,7 @@ export default function PeoplePage() {
     },
     {
       id: 11,
-      name: "Dr Victor Araujo Silva",
+      name: "Dr Victor Araújo",
       image: "/bio_victor.jpg?height=200&width=200&text=VA",
       personal_website: "https://sites.google.com/view/victoraraujo/about-me",
       institutional_website: "https://www.reading.ac.uk/politics-international-relations/staff/dr-victor-araujo",
@@ -196,8 +196,8 @@ export default function PeoplePage() {
       name: "Dr Vanessa Cheng-Matsuno",
       image: "/bio_vanessa.jpg?height=200&width=200&text=VC",
       personal_website: "https://vchengm.wordpress.com/",
-      institutional_website: "https://www.lse.ac.uk/government/people/research-students/vanessa-cheng-matsuno",
-      focus: "Political Economy, Political behaviour, Quantitative methods, Data science"
+      institutional_website: "https://www.southampton.ac.uk/people/65765j/miss-vanessa-cheng-matsuno",
+      focus: "Latin American politics, field and survey experiments, political elites, public policy, social mobilisation"
     },
     {
       id: 21,

@@ -1,32 +1,143 @@
 import Link from "next/link";
 
 export default function ConsultancyPage() {
-  const thematicAreas = [
-    "Institutional and electoral processes – including electoral systems, party systems, and political institutions",
-    "Political trust, democratic satisfaction and democratic values",
-    "Political polarization, populism and the radical right",
-    "Information processing and persuasion – including mis/dis-information, micro-targeting and campaign effects",
-    "Identity politics and inequalities – with particular focus on gender and sexual identities, ethnicity and race, as well as national identities, social class and religion",
-    "Policy attitudes – with particular focus on economic, immigration, public health, environmental/climate, civil liberties, and EU policy",
+  // Create a mapping of people to their formal names and profile links
+  const peopleLinks = {
+    "Will": { name: "Prof. Will Jennings", href: "/people" },
+    "Dan": { name: "Dr. Daniel Devine", href: "/people" },
+    "Miriam": { name: "Prof. Miriam Sorace", href: "/people" },
+    "Florian": { name: "Dr. Florian Foos", href: "/people" },
+    "Tereza": { name: "Prof. Tereza Capelos", href: "/people" },
+    "Marta": { name: "Dr. Marta Antonetti", href: "/people" },
+    "Sara": { name: "Prof. Sara Hobolt", href: "/people" },
+    "Zach": { name: "Dr. Zach Dickson", href: "/people" },
+    "Katharina": { name: "Dr. Katharina Lawall", href: "/people" },
+    "Victor": { name: "Dr. Victor Araújo", href: "/people" },
+    "Ben": { name: "Dr. Ben Tappin", href: "/people" },
+    "Jason": { name: "Prof. Jason Reifler", href: "/people" },
+    "Stuart": { name: "Dr. Stuart Turnbull-Dugarte", href: "/people" },
+    "Rob": { name: "Prof. Rob Johns", href: "/people" },
+    "Jessica": { name: "Dr. Jessica Smith", href: "/people" },
+    "Patrick": { name: "Prof. Patrick Sturgis", href: "/people" },
+    "Gabriele": { name: "Prof. Gabriele Durrant", href: "/people" },
+    "Olga": { name: "Dr. Olga Maslovskaya", href: "/people" },
+    "Thomas": { name: "Dr. Thomas Robinson", href: "/people" },
+    "Kenneth": { name: "Prof. Kenneth Benoit", href: "/people" },
+    "Lauren": { name: "Lauren Leek", href: "/people" },
+    "Conrad": { name: "Conrad Martinez-Lambert", href: "/people" },
+    "Vanessa": { name: "Dr. Vanessa Cheng-Matsuno", href: "/people" },
+    "Matthias": { name: "Dr. Matthias Kroenke", href: "/people" }
+  };
+
+  const thematicAreasWithExperts = [
+    {
+      area: "Political trust, institutional/process preferences, democratic satisfaction and democratic values",
+      experts: ["Will", "Dan", "Miriam", "Florian", "Tereza", "Marta"]
+    },
+    {
+      area: "Political polarization, populism and the radical right",
+      experts: ["Sara", "Miriam", "Zach", "Katharina", "Victor"]
+    },
+    {
+      area: "Information processing and persuasion – including mis/dis-information, micro-targeting and campaign effects",
+      experts: ["Ben", "Jason", "Miriam", "Florian", "Marta"]
+    },
+    {
+      area: "Identity politics and inequalities – with particular focus on gender and sexual identities, ethnicity and race, as well as national identities, social class and religion",
+      experts: ["Stuart", "Katharina", "Rob", "Jessica", "Victor"]
+    },
+    {
+      area: "Policy attitudes – with particular focus on economic, immigration, public health, environmental/climate, civil liberties, and EU policy",
+      experts: ["Will", "Dan", "Miriam", "Florian", "Tereza", "Marta", "Sara", "Zach", "Katharina", "Victor", "Ben", "Jason", "Stuart", "Rob", "Patrick", "Gabriele", "Olga", "Thomas", "Kenneth", "Lauren", "Jessica", "Conrad", "Vanessa", "Matthias"]
+    }
   ];
 
-  const methodologicalStrengths = [
-    "Polling and survey methodology",
-    "Predictive modelling (including Multilevel Regression and Post-stratification - MRP)",
-    "Field and survey experiments",
-    "Large Language Models (LLMs) and computational text analysis",
+  const methodologicalStrengthsWithExperts = [
+    {
+      method: "Polling and survey methodology",
+      experts: ["Patrick", "Will", "Gabriele", "Olga"]
+    },
+    {
+      method: "Predictive modelling (including Multilevel Regression and Post-stratification - MRP)",
+      experts: ["Thomas", "Zach", "Kenneth"]
+    },
+    {
+      method: "Field and survey experiments", 
+      experts: ["Florian", "Miriam", "Katharina", "Marta"]
+    },
+    {
+      method: "Large Language Models (LLMs) and computational text analysis",
+      experts: ["Thomas", "Zach", "Kenneth", "Lauren"]
+    }
   ];
 
-  const geographicalFocus = [
-    "British politics",
-    "European Union (EU)",
-    "Western and Eastern European countries",
-    "The United States of America (USA)",
-    "Australia",
-    "New Zealand",
-    "Latin America",
-    "Africa",
+  const geographicalFocusWithExperts = [
+    {
+      region: "British politics",
+      experts: ["Will", "Jessica", "Rob"]
+    },
+    {
+      region: "European Union (EU)",
+      experts: ["Miriam", "Sara", "Lauren"]
+    },
+    {
+      region: "Western and Eastern European countries",
+      experts: ["Miriam", "Sara", "Stuart"]
+    },
+    {
+      region: "The United States of America (USA)",
+      experts: ["Zach", "Ben"]
+    },
+    {
+      region: "Australia & New Zealand",
+      experts: ["Conrad"]
+    },
+    {
+      region: "Latin America",
+      experts: ["Victor", "Vanessa"]
+    },
+    {
+      region: "Africa",
+      experts: ["Matthias"]
+    }
   ];
+
+  // Helper component to render expert links
+  const ExpertLinks = ({ experts }: { experts: string[] }) => {
+    return (
+      <div className="mt-1 flex flex-wrap items-center gap-x-1">
+        <span className="text-sm text-gray-600">Experts:</span>
+        {experts.map((expert, index) => {
+          const personInfo = peopleLinks[expert as keyof typeof peopleLinks];
+          
+          // Handle case where expert is not found in peopleLinks
+          if (!personInfo) {
+            console.warn(`Expert "${expert}" not found in peopleLinks`);
+            return (
+              <span key={expert} className="inline-flex items-center">
+                <span className="text-gray-600 text-sm font-medium">{expert}</span>
+                {index < experts.length - 1 && 
+                 <span className="text-gray-500 ml-0.5">,</span>}
+              </span>
+            );
+          }
+
+          return (
+            <span key={expert} className="inline-flex items-center">
+              <Link
+                href={personInfo.href}
+                className="text-emerald-600 hover:text-emerald-800 text-sm font-medium hover:underline"
+              >
+                {personInfo.name}
+              </Link>
+              {index < experts.length - 1 && 
+               <span className="text-gray-500 ml-0.5">,</span>}
+            </span>
+          );
+        })}
+      </div>
+    );
+  };
 
   return (
     <div className="flex flex-col min-h-screen">
@@ -55,39 +166,42 @@ export default function ConsultancyPage() {
                 <h3 className="text-xl font-semibold mb-4 text-gray-800 border-l-4 border-emerald-700 pl-4">
                   Thematic Areas
                 </h3>
-                <ul className="list-disc list-inside space-y-3 text-gray-700 pl-6">
-                  {thematicAreas.map((area, index) => (
-                    <li key={`theme-${index}`} className="text-base">
-                      {area}
-                    </li>
+                <div className="space-y-6">
+                  {thematicAreasWithExperts.map((item, index) => (
+                    <div key={`theme-${index}`} className="border-l-2 border-emerald-200 pl-4">
+                      <div className="text-base text-gray-700 mb-2 font-medium">{item.area}</div>
+                      <ExpertLinks experts={item.experts} />
+                    </div>
                   ))}
-                </ul>
+                </div>
               </div>
 
               <div>
                 <h3 className="text-xl font-semibold mb-4 mt-8 text-gray-800 border-l-4 border-emerald-700 pl-4">
                   Methodological Expertise
                 </h3>
-                <ul className="list-disc list-inside space-y-3 text-gray-700 pl-6">
-                  {methodologicalStrengths.map((method, index) => (
-                    <li key={`method-${index}`} className="text-base">
-                      {method}
-                    </li>
+                <div className="space-y-6">
+                  {methodologicalStrengthsWithExperts.map((item, index) => (
+                    <div key={`method-${index}`} className="border-l-2 border-emerald-200 pl-4">
+                      <div className="text-base text-gray-700 mb-2 font-medium">{item.method}</div>
+                      <ExpertLinks experts={item.experts} />
+                    </div>
                   ))}
-                </ul>
+                </div>
               </div>
 
               <div>
                 <h3 className="text-xl font-semibold mb-4 mt-8 text-gray-800 border-l-4 border-emerald-700 pl-4">
                   Geographical Focus
                 </h3>
-                <ul className="list-disc list-inside space-y-3 text-gray-700 pl-6">
-                  {geographicalFocus.map((region, index) => (
-                    <li key={`geo-${index}`} className="text-base">
-                      {region}
-                    </li>
+                <div className="space-y-6">
+                  {geographicalFocusWithExperts.map((item, index) => (
+                    <div key={`geo-${index}`} className="border-l-2 border-emerald-200 pl-4">
+                      <div className="text-base text-gray-700 mb-2 font-medium">{item.region}</div>
+                      <ExpertLinks experts={item.experts} />
+                    </div>
                   ))}
-                </ul>
+                </div>
               </div>
             </div>
             <p className="text-base text-gray-700 mt-8">
