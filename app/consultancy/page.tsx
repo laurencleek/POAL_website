@@ -78,11 +78,11 @@ export default function ConsultancyPage() {
     },
     {
       region: "European Union (EU)",
-      experts: ["Miriam", "Sara", "Lauren", "Katharina", "Florian"]
+      experts: ["Miriam", "Sara", "Lauren"]
     },
     {
       region: "Western and Eastern European countries",
-      experts: ["Miriam", "Sara", "Stuart"]
+      experts: ["Miriam", "Sara", "Stuart", "Katharina", "Florian"]
     },
     {
       region: "The United States of America (USA)",

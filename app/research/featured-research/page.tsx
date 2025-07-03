@@ -21,10 +21,10 @@ export default function FeaturedResearchPage() {
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-2">How Campaigns Actually Persuade Voters</h3>
+                <h3 className="text-xl font-bold mb-2">How Experiments Help Campaigns Persuade Voters</h3>
                 <p className="text-gray-500 mb-4">2024</p>
                 <p className="text-gray-700 mb-4">
-                  Do political campaigns really change minds? Using a unique archive of over 600 real campaign experiments, we reveal that campaigns can indeed persuade voters, but the effects are smaller and more targeted than commonly believed. This groundbreaking study provides the first large-scale evidence of how political persuasion works in practice.
+                  Do experiments help campaigns to change voters minds? Ben Tappin and various co-authors use an unique archive of over 600 real campaign experiments. They reveal that campaigns can indeed persuade voters. The effects are small but meaningful. This groundbreaking study provides the first large-scale evidence of how political persuasion works in practice.
                 </p>
                 <Link href="https://www.cambridge.org/core/journals/american-political-science-review/article/how-experiments-help-campaigns-persuade-voters-evidence-from-a-large-archive-of-campaigns-own-experiments/FF5BE6ED1553475F8321F7C4209357F7" className="inline-flex items-center text-emerald-600 hover:text-emerald-800 font-medium">
                   Read the full study <ArrowRight className="ml-2 h-4 w-4" />
@@ -46,7 +46,7 @@ export default function FeaturedResearchPage() {
                 <h3 className="text-xl font-bold mb-2">When Infrastructure Wins Elections</h3>
                 <p className="text-gray-500 mb-4">2024</p>
                 <p className="text-gray-700 mb-4">
-                  Can bringing electricity to rural communities boost a government's electoral chances? Our analysis of Brazil's massive rural electrification program shows that voters do reward incumbents for tangible improvements to their daily lives. This research demonstrates how infrastructure investments can reshape electoral landscapes in developing democracies.
+                  Can bringing electricity to rural communities boost a government's electoral chances? What are the conditions under which this happens? Victor Araújo and co-authors analyse Brazil's massive rural electrification program and show that voters do reward incumbents for tangible improvements to their daily lives. This research demonstrates how infrastructure investments can reshape electoral landscapes in developing democracies.
                 </p>
                 <Link href="https://www.journals.uchicago.edu/doi/10.1086/726958" className="inline-flex items-center text-emerald-600 hover:text-emerald-800 font-medium">
                   Read the full study <ArrowRight className="ml-2 h-4 w-4" />
@@ -65,10 +65,10 @@ export default function FeaturedResearchPage() {
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-2">When Leaders Lead Citizens Astray</h3>
+                <h3 className="text-xl font-bold mb-2">Elite Cues and Noncomplaince</h3>
                 <p className="text-gray-500 mb-4">2024</p>
                 <p className="text-gray-700 mb-4">
-                  What happens when political elites openly defy rules and norms? Using innovative survey experiments, we show that when leaders signal non-compliance with democratic institutions, ordinary citizens become more likely to break rules themselves. This research reveals a dangerous pathway through which democratic erosion can accelerate.
+                  What happens when political elites openly defy rules and norms? Zach Dickson and Sara Hobolt use difference-in-differences analysis on Tweets to show that when leaders signal non-compliance with democratic institutions, ordinary citizens become more likely to break rules themselves. This research reveals a dangerous pathway through which democratic erosion can accelerate in polarized environments.
                 </p>
                 <Link href="https://www.cambridge.org/core/journals/american-political-science-review/article/elite-cues-and-noncompliance/8A5F20C549D02AADB490223B2E3F2B7E" className="inline-flex items-center text-emerald-600 hover:text-emerald-800 font-medium">
                   Read the full study <ArrowRight className="ml-2 h-4 w-4" />
@@ -87,10 +87,10 @@ export default function FeaturedResearchPage() {
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-2">What Motivates Political Participation in Africa</h3>
+                <h3 className="text-xl font-bold mb-2">Drivers of Political Participation</h3>
                 <p className="text-gray-500 mb-4">2023</p>
                 <p className="text-gray-700 mb-4">
-                  Why do some citizens actively participate in politics while others remain disengaged? Our comprehensive study of Zambian voters reveals that party loyalty, ethnic identity, and material incentives all play crucial but distinct roles in driving political participation. These findings challenge conventional wisdom about African electoral behavior.
+                  Why do some citizens actively participate in politics while others remain disengaged? Matthias Kroenke and co-authors conduct a comprehensive study including survey experiment of Zambian voters revealing that partisanship shapes the most important role while ethnicity and social incentives all play lesser roles in driving political participation. These findings challenge conventional wisdom about political engagement and develpoment throughtout the region.
                 </p>
                 <Link href="https://journals.sagepub.com/doi/full/10.1177/00104140231194064" className="inline-flex items-center text-emerald-600 hover:text-emerald-800 font-medium">
                   Read the full study <ArrowRight className="ml-2 h-4 w-4" />
@@ -112,7 +112,7 @@ export default function FeaturedResearchPage() {
                 <h3 className="text-xl font-bold mb-2">The Limits of AI Political Persuasion</h3>
                 <p className="text-gray-500 mb-4">2025</p>
                 <p className="text-gray-700 mb-4">
-                  As AI language models become more sophisticated, concerns grow about their potential to manipulate political opinions. Our cutting-edge experiments reveal that while larger AI models can be more persuasive, the returns diminish quickly. This research provides crucial evidence for understanding AI's role in future political campaigns.
+                  As AI language models become more sophisticated, concerns grow about their potential to manipulate political opinions. Ben Tappin and co-authors in cutting-edge experiments reveal that larger AI models can be more persuasive, the returns diminish quickly towards zero. This research provides crucial evidence for understanding AI's role in future political campaigns.
                 </p>
                 <Link href="https://pubmed.ncbi.nlm.nih.gov/40053360/" className="inline-flex items-center text-emerald-600 hover:text-emerald-800 font-medium">
                   Read the full study <ArrowRight className="ml-2 h-4 w-4" />
@@ -131,10 +131,10 @@ export default function FeaturedResearchPage() {
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-2">Politics and Parenthood Don't Mix (Or Do They?)</h3>
+                <h3 className="text-xl font-bold mb-2">Balancing politics and parenthood</h3>
                 <p className="text-gray-500 mb-4">2024</p>
                 <p className="text-gray-700 mb-4">
-                  Should politicians take parental leave? Our research reveals complex public attitudes toward MPs who prioritize family responsibilities. While many support work-life balance in principle, voters still penalize politicians who seem to put parenting before politics, revealing persistent tensions between traditional political expectations and modern family values.
+                  Should politicians take parental leave? Jessica Smith reveals the complex public attitudes toward MPs who prioritize family responsibilities. Voters are found to not penalize politicians who seem to put parenting before politics. This effect is stronger for women than men. 
                 </p>
                 <Link href="https://doi.org/10.1111/1475-6765.12728" className="inline-flex items-center text-emerald-600 hover:text-emerald-800 font-medium">
                   Read the full study <ArrowRight className="ml-2 h-4 w-4" />
