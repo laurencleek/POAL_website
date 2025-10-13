@@ -163,6 +163,138 @@ export default function FeaturedResearchPage() {
                 </Link>
               </div>
             </div>
+
+            <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+              <div className="relative h-48 w-full">
+                <Image
+                  src="/corruption.jpg?height=200&width=400"
+                  alt="Transnational Corruption Research"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold mb-2">Do voters differentially punish transnational corruption?</h3>
+                <p className="text-gray-500 mb-4">2024</p>
+                <p className="text-gray-700 mb-4">
+                  Under which circumstances do voters electorally punish corrupt politicians? Vanessa Cheng-Matsuno and co-author examine the case of transnational corruption through a survey experiment in the UK. They find evidence suggesting that voters differentially punish transnational corruption but only when it involves countries perceived negatively by the public. This innovative study challenges the status quo neglecting the transnational dimension in electoral accountability.
+                </p>
+                <Link href="https://ejpr.onlinelibrary.wiley.com/doi/10.1111/1475-6765.12643" className="inline-flex items-center text-emerald-600 hover:text-emerald-800 font-medium">
+                  Read the full study <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+              </div>
+            </div>
+
+            <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+              <div className="relative h-48 w-full">
+                <Image
+                  src="/echo-chambers.jpg?height=200&width=400"
+                  alt="Partisan Echo Chambers Research"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold mb-2">The Polarizing Effect of Partisan Echo Chambers</h3>
+                <p className="text-gray-500 mb-4">2024</p>
+                <p className="text-gray-700 mb-4">
+                  What shapes polarization? Sara Hobolt, Katharina Lawall and co-authors examine how the political homogeneity of people's social environment shapes polarization using an innovative large scale lab-in-the-field experiment in the UK. They find that partisan echo chambers increase both policy and affective polarization compared to mixed discussion groups. Their study has important implications for how to understand the drivers of polarization.
+                </p>
+                <Link href="https://www.cambridge.org/core/journals/american-political-science-review/article/polarizing-effect-of-partisan-echo-chambers/5044B63A13A458A97CA747E9DCA07228" className="inline-flex items-center text-emerald-600 hover:text-emerald-800 font-medium">
+                  Read the full study <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+              </div>
+            </div>
+
+            <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+              <div className="relative h-48 w-full">
+                <Image
+                  src="/education.jpg?height=200&width=400"
+                  alt="Education as Identity Research"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold mb-2">Education as Identity? A Meta-Analysis of Education-Based Preferences</h3>
+                <p className="text-gray-500 mb-4">2024</p>
+                <p className="text-gray-700 mb-4">
+                  Do voters across the democratic world systematically prefer better-educated legislators? Stuart Turnbull-Dugarte and co-authors conducted a meta-analysis of candidate-choice experiments from democracies across the world to identify the presence and size of the education premium in politics. This comprehensive analysis contributes to explaining the over-representation of highly educated politicians in representative institutions.
+                </p>
+                <Link href="https://doi.org/10.1086/730745" className="inline-flex items-center text-emerald-600 hover:text-emerald-800 font-medium">
+                  Read the full study <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+              </div>
+            </div>
+
+            <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+              <div className="relative h-48 w-full">
+                <Image
+                  src="/voting_stu.png?height=200&width=400"
+                  alt="Heroes & Villains Research"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold mb-2">Heroes & Villains: Motivated Projection of Political Identities</h3>
+                <p className="text-gray-500 mb-4">2025</p>
+                <p className="text-gray-700 mb-4">
+                  Do we citizens assume that virtuous heroes vote for the same party as we do and that cruel villains vote for the parties we dislike? Stuart Turnbull-Dugarte and co-authors fielded an experiment in the US and Britain to show people *assume* the partisanship of others in response to information about the moral compass of others. This research highlights the ease with which misperceptions and stereotypes about our political opponents can spread easily and fuel political polarization.
+                </p>
+                <Link href="https://doi.org/10.1017/psrm.2025.10" className="inline-flex items-center text-emerald-600 hover:text-emerald-800 font-medium">
+                  Read the full study <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+              </div>
+            </div>
+
+            <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+              <div className="relative h-48 w-full">
+                <Image
+                  src="/dating.jpg?height=200&width=400"
+                  alt="Far Right Normalization Research"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold mb-2">Far Right Normalization & Centrifugal Affect: Evidence from the Dating Market</h3>
+                <p className="text-gray-500 mb-4">2025</p>
+                <p className="text-gray-700 mb-4">
+                  Are radical right supporters penalised in apolitical social settings? Stuart Turnbull-Dugarte and co-authors conducted a dating market experiment to show that, rather than being stigmatised, radical right party supporters are socially accommodated. In fact, centre-right supporters would rather date a radical right supporter than a centre-left supporter. This cutting edge experimental research contributes to explaining how radical right parties have become normalised in liberal democracies.
+                </p>
+                <Link href="https://doi.org/10.1086/736698" className="inline-flex items-center text-emerald-600 hover:text-emerald-800 font-medium">
+                  Read the full study <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+              </div>
+            </div>
+
+            <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+              <div className="relative h-48 w-full">
+                <Image
+                  src="/working_class.jpg?height=200&width=400"
+                  alt="Social Class and Political Success Research"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold mb-2">Success Denied: Social Class and Perceptions of Political Success</h3>
+                <p className="text-gray-500 mb-4">2025</p>
+                <p className="text-gray-700 mb-4">
+                  Why are working class people under-represented in legislatures? We propose one potential mechanism: working-class individuals are perceived as less likely to achieve political success, and are subsequently 'pragmatically' discriminated against. We provide an experiment in the UK to test it.
+                </p>
+                <Link href="https://onlinelibrary.wiley.com/doi/epdf/10.1111/lsq.70024" className="inline-flex items-center text-emerald-600 hover:text-emerald-800 font-medium">
+                  Read the full study <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </section>

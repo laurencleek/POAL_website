@@ -36,7 +36,7 @@ export default function ConsultancyPage() {
     },
     {
       area: "Political polarization, populism and the radical right",
-      experts: ["Sara", "Miriam", "Zach", "Katharina", "Victor"]
+      experts: ["Sara", "Miriam", "Zach", "Katharina", "Victor", "Stuart"]
     },
     {
       area: "Information processing and persuasion – including mis/dis-information, micro-targeting and campaign effects",

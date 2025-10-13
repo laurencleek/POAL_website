@@ -72,7 +72,7 @@ export default function PeoplePage() {
       image: "/bio_robert.jpg?height=200&width=200&text=RJ",
       personal_website: "https://www.southampton.ac.uk/people/65brpg/professor-robert-johns",
       institutional_website: "https://www.southampton.ac.uk/people/65brpg/professor-robert-johns",
-      focus: "Public Opinion, British and especially Scottish elections, Political Psychology"
+      focus: "Questionnaire design and measurement of public opinion; survey experiments; attitudes towards human rights; 'post-truth' and public opinion"
      
     },
     {
@@ -137,7 +137,7 @@ export default function PeoplePage() {
       image: "/bio_matthias.jpg?height=200&width=200&text=MK",
       personal_website: "https://www.matthiaskroenke.com",
       institutional_website: "https://www.reading.ac.uk/politics-international-relations/staff/dr-matthias-kroenke ",
-      focus: "Comparative Politics, Political Behavior, Sub-Saharan Africa, Quantitative and Qualitative Methods,"
+      focus: "Comparative Politics, Political Behavior, Africa, Quantitative and Qualitative Methods,"
 ,
     },
     {
@@ -209,7 +209,7 @@ export default function PeoplePage() {
     },
     {
       id: 23,
-      name: "Lauren Leek",
+      name: "Dr. Lauren Leek",
       image: "/bio_Leek.png?height=200&width=200&text=LL",
       personal_website: "https://laurenleek.eu/",
       institutional_website: "https://www.eui.eu/people?id=lauren-leek",
@@ -224,6 +224,32 @@ export default function PeoplePage() {
       institutional_website: "https://uk.linkedin.com/in/conrad-pollcat-elections-postgrad",
       focus: "Inequality and Polarization, Public Opinion, Elections",
     },
+    {
+      id: 25,
+      name: "Ben Ginsburg-Hix",
+      image: "/bio_ben_h.jpeg?height=200&width=200&text=LL",
+      personal_website: "https://www.lse.ac.uk/government/people",
+      institutional_website: "https://www.lse.ac.uk/government/people",
+      focus: "Survey Methods and Experiments, Electoral Campaigns, Causal Inference and Computational Methods, and Radical Right Voting",
+    },
+
+        {
+      id: 26,
+      name: "Lennard Metson",
+      image: "/bio_len.jpg?height=200&width=200&text=LL",
+      personal_website: "lenmetson.com",
+      institutional_website: "https://www.lse.ac.uk/people/lennard-metson",
+      focus: "Campaigns, Social Influence, Political Technology, Persuasion and Mobilisation, RCTs, and Computational Methods",
+    },
+        {
+      id: 27,
+      name: "Elena Pro",
+      image: "/bio_pro.jpg?height=200&width=200&text=LL",
+      personal_website: "https://elenapro.eu/",
+      institutional_website: "https://www.lse.ac.uk/people/elena-pro",
+      focus: "Political Behaviour and Psychology, Comparative Politics, Causal Inference and Mixed Methods",
+    },
+
   ]
 
   
