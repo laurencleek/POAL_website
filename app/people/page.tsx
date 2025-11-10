@@ -226,7 +226,7 @@ export default function PeoplePage() {
     },
     {
       id: 25,
-      name: "Ben Ginsburg-Hix",
+      name: "Ben Ginsburg Hix",
       image: "/bio_ben_h.jpeg?height=200&width=200&text=LL",
       personal_website: "https://www.lse.ac.uk/government/people",
       institutional_website: "https://www.lse.ac.uk/government/people",
@@ -237,7 +237,7 @@ export default function PeoplePage() {
       id: 26,
       name: "Lennard Metson",
       image: "/bio_len.jpg?height=200&width=200&text=LL",
-      personal_website: "lenmetson.com",
+      personal_website: "https://lenmetson.com/",
       institutional_website: "https://www.lse.ac.uk/people/lennard-metson",
       focus: "Campaigns, Social Influence, Political Technology, Persuasion and Mobilisation, RCTs, and Computational Methods",
     },
