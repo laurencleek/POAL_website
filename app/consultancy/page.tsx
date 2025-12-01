@@ -23,10 +23,11 @@ export default function ConsultancyPage() {
     "Olga": { name: "Dr. Olga Maslovskaya", href: "/people" },
     "Thomas": { name: "Dr. Thomas Robinson", href: "/people" },
     "Kenneth": { name: "Prof. Kenneth Benoit", href: "/people" },
-    "Lauren": { name: "Lauren Leek", href: "/people" },
+    "Lauren": { name: "Dr. Lauren Leek", href: "/people" },
     "Conrad": { name: "Conrad Martinez-Lambert", href: "/people" },
     "Vanessa": { name: "Dr. Vanessa Cheng-Matsuno", href: "/people" },
-    "Matthias": { name: "Dr. Matthias Kroenke", href: "/people" }
+    "Matthias": { name: "Dr. Matthias Kroenke", href: "/people" },
+    "Konstantin": { name: "Dr. Konstantin Bogatyrev", href: "/people" }
   };
 
   const thematicAreasWithExperts = [
@@ -36,7 +37,7 @@ export default function ConsultancyPage() {
     },
     {
       area: "Political polarization, populism and the radical right",
-      experts: ["Sara", "Miriam", "Zach", "Katharina", "Victor", "Stuart"]
+      experts: ["Sara", "Miriam", "Zach", "Katharina", "Victor", "Stuart", "Konstantin"]
     },
     {
       area: "Information processing and persuasion – including mis/dis-information, micro-targeting and campaign effects",
@@ -44,7 +45,7 @@ export default function ConsultancyPage() {
     },
     {
       area: "Identity politics and inequalities – with particular focus on gender and sexual identities, ethnicity and race, as well as national identities, social class and religion",
-      experts: ["Stuart", "Katharina", "Rob", "Jessica", "Victor"]
+      experts: ["Stuart", "Katharina", "Rob", "Jessica", "Victor","Konstantin"]
     },
     {
       area: "Policy attitudes – with particular focus on economic, immigration, public health, environmental/climate, civil liberties, and EU policy",
@@ -63,7 +64,7 @@ export default function ConsultancyPage() {
     },
     {
       method: "Field and survey experiments", 
-      experts: ["Florian", "Miriam", "Katharina", "Marta"]
+      experts: ["Florian", "Miriam", "Katharina", "Marta","Konstantin"]
     },
     {
       method: "Large Language Models (LLMs) and computational text analysis",
@@ -82,7 +83,7 @@ export default function ConsultancyPage() {
     },
     {
       region: "Western and Eastern European countries",
-      experts: ["Miriam", "Sara", "Stuart", "Katharina", "Florian"]
+      experts: ["Miriam", "Sara", "Stuart", "Katharina", "Florian","Konstantin"]
     },
     {
       region: "The United States of America (USA)",

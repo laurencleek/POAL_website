@@ -269,6 +269,7 @@ export default function PeoplePage() {
       id: 30,
       name: "Dr. Konstantin Bogatyrev",
       image: "/bio_konstantin.jpg?height=200&width=200&text=KB",
+      personal_website: "https://www.lse.ac.uk/government/people/academic-staff/konstantin-bogatyrev",
       institutional_website: "https://www.lse.ac.uk/government/people/academic-staff/konstantin-bogatyrev",
       focus: "Voting Behaviour, Populism, Europe, LGBTQ+ Politics, Causal Inference, Survey Experiments",
     },
