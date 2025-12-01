@@ -249,6 +249,29 @@ export default function PeoplePage() {
       institutional_website: "https://www.lse.ac.uk/people/elena-pro",
       focus: "Political Behaviour and Psychology, Comparative Politics, Causal Inference and Mixed Methods",
     },
+    {
+      id: 28,
+      name: "Dr Rikki Dean",
+      image: "/bio_dean.jpeg?height=200&width=200&text=RD",
+      personal_website: "https://rikkidean.com/",
+      institutional_website: "https://www.southampton.ac.uk/people/65d6rr/doctor-rikki-dean",
+      focus: "Democratic Values, Process Preferences, Democratic Innovations, Mixed Methods",
+    },
+    {
+      id: 29,
+      name: "Dr Paul Kindermann",
+      image: "/bio_paul.jpeg?height=200&width=200&text=PK",
+      personal_website: "https://paul-kindermann.net",
+      institutional_website: "https://www.southampton.ac.uk/people/66znvm/doctor-paul-kindermann",
+      focus: "Political Participation, Qualitative Fieldwork, Mixed-Methods, Democratic Innovations.",
+    },
+    {
+      id: 30,
+      name: "Dr. Konstantin Bogatyrev",
+      image: "/bio_konstantin.jpg?height=200&width=200&text=KB",
+      institutional_website: "https://www.lse.ac.uk/government/people/academic-staff/konstantin-bogatyrev",
+      focus: "Voting Behaviour, Populism, Europe, LGBTQ+ Politics, Causal Inference, Survey Experiments",
+    },
 
   ]
 
