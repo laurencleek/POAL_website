@@ -90,7 +90,7 @@ export default function PeoplePage() {
   const members = [
     {
       id: 4,
-      name: "Prof. Gabriele Durrant",
+      name: "Prof Gabriele Durrant",
       image: "/bio_gabi.jpg?height=200&width=200&text=GD",
       personal_website: "https://www.southampton.ac.uk/people/5x25ff/professor-gabriele-durrant",
       institutional_website: "https://www.ncrm.ac.uk/about/people/hub/Gabriele-Durrant.php",
@@ -98,7 +98,7 @@ export default function PeoplePage() {
     },
     {
       id: 5,
-      name: "Prof. Kenneth Benoit",
+      name: "Prof Kenneth Benoit",
       image: "/bio_ken.jpg?height=200&width=200&text=KB",
       personal_website: "https://kenbenoit.net/",
       institutional_website: "https://socsc.smu.edu.sg/faculty/profile/7891/kenneth-benoit",
@@ -209,7 +209,7 @@ export default function PeoplePage() {
     },
     {
       id: 23,
-      name: "Dr. Lauren Leek",
+      name: "Dr Lauren Leek",
       image: "/bio_Leek.png?height=200&width=200&text=LL",
       personal_website: "https://laurenleek.eu/",
       institutional_website: "https://www.eui.eu/people?id=lauren-leek",
@@ -267,11 +267,27 @@ export default function PeoplePage() {
     },
     {
       id: 30,
-      name: "Dr. Konstantin Bogatyrev",
+      name: "Dr Konstantin Bogatyrev",
       image: "/bio_konstantin.jpg?height=200&width=200&text=KB",
       personal_website: "https://www.lse.ac.uk/government/people/academic-staff/konstantin-bogatyrev",
       institutional_website: "https://www.lse.ac.uk/government/people/academic-staff/konstantin-bogatyrev",
       focus: "Voting Behaviour, Populism, Europe, LGBTQ+ Politics, Causal Inference, Survey Experiments",
+    },
+    {
+      id: 31,
+      name: "Charlotte Kuberka",
+      image: "/bio_charlotte.png?height=200&width=200&text=CK",
+      personal_website: "https://charlottekuberka.github.io",
+      institutional_website: "https://www.lse.ac.uk/government/people",
+      focus: "Political Behaviour and Place-Based Identities, Green Transformation, Urban-Rural Divide, Computational Social Science",
+    },
+    {
+      id: 32,
+      name: "Anton Könneke",
+      image: "/bio_anton.png?height=200&width=200&text=AK",
+      personal_website: "https://www.antonkoenneke.de",
+      institutional_website: "https://www.lse.ac.uk/government/people#Kr",
+      focus: "Political Behaviour, Representation, Campaigns, Activism, Field Experiments and Causal Inference",
     },
 
   ]
